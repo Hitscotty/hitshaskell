@@ -11,7 +11,7 @@ title:            Hitshaskell
 tagline:          'A blog for Haskell'
 description:      'A place to think Haskell'
 url:              https://hitscotty.github.io/
-baseurl:          public/
+baseurl:          /top
 
 author:
   name:           'Jonathan Portorreal'
