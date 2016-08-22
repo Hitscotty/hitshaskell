@@ -23,8 +23,8 @@
       {% for node in pages_list %}
         {% if node.title != null %}
       {% if node.layout == "page" %
-      {% assign fullurl = "https://hitscotty.github.io/hitshaskell" | append node.url %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ fullurl }}">{{ node.title }}</a>
+      {% assign fullurl = "https://hitscotty.github.io/hitshaskell/" | append node.title %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{fullurl }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
        {% endfor %}
