@@ -10,8 +10,8 @@ relative_permalinks: false
 title:            Hitshaskell
 tagline:          'A blog for Haskell'
 description:      'A place to think Haskell'
-url:              https://hitscotty.github.io/hitshaskell
-baseurl:          /hitshaskell/
+url:              https://hitscotty.github.io/hitshaskell/
+baseurl:          /hitshaskell
 
 author:
   name:           'Jonathan Portorreal'
