@@ -1,30 +1,23 @@
 ---
 layout: page
-title: About
+title: Hi It's Scotty!
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hi it's Scotty, get it? HitScotty! Well my real name is Jonathan, but everyone calls me Scotty.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I'm 22 years old, recent college graduate, in pursuit of a career in software development. On my free time I like programming in Haskell
+and reading really cool interesting research papers on things I have no clue about! The more difficult, the more alluring and interesting. I love learning new things as much as I love thinking in Haskell.
 
-There are currently two themes built on Poole:
+Current Topics of Interests:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* Functional Paradigms
+* Denotational Symantics of Programming
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Learn more about me, [hitscotty](https://hitscotty.github.io/).  *<- That's my website.*
 
-## Setup
+## Haskell ::Me
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+I discovered Haskell while watching my favorite youtube channel [computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI). With only just a simple explanation of how a list of numbers
+from 1 to 10 can be added together in a Functional Programming language, I was absolutely captivated and sold. I needed to discover the language that was Haskell with features like "pattern matching" and ```sum [1..10]```. It has only been a few months since then and through Haskell I have learned so much beyond the scope of Haskell from lambda calculus to a thing or two on compilers.
