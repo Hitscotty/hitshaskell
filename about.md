@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hi It's Scotty!
+title: about
 ---
 
 <p class="message">
