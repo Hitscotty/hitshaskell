@@ -17,7 +17,7 @@ Current Topics of Interests:
 
 Learn more about me, [hitscotty](https://hitscotty.github.io/).  *<- That's my website.*
 
-## Haskell ::Me
+## Haskell :: Me
 
 I discovered Haskell while watching my favorite youtube channel [computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI). With only just a simple explanation of how a list of numbers
 from 1 to 10 can be added together in a Functional Programming language, I was absolutely captivated and sold. I needed to discover the language that was Haskell with features like "pattern matching" and ```sum [1..10]```. It has only been a few months since then and through Haskell I have learned so much beyond the scope of Haskell from lambda calculus to a thing or two on compilers.
