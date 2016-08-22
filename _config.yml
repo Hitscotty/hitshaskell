@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            Hitshaskell
 tagline:          'A blog for Haskell'
 description:      'A place to think Haskell'
-url:              https://hitscotty.github.com/
+url:              https://hitscotty.github.io/
 baseurl:          /public
 
 author:
