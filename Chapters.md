@@ -3,7 +3,7 @@ layout: page
 title: Chapter Solutions
 ---
 
-###### I started this blog kinda late, so I'm gradually posting my solutions as I go
+> I started this blog kinda late, posting my solutions slowly
 
 ## 1: All You Need is Lambda
 ### &nbsp; 1.6 Intermission Exercises
