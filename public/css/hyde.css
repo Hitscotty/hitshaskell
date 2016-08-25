@@ -250,3 +250,23 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* 
+ * 
+ * Archive Styling Section
+ * 
+ */
+
+.archive {
+    text-align: center;
+    color: grey;
+}
+
+.archive :focus {
+    text-decoration: none;
+}
+.archive :hover {
+    text-decoration: none;
+    font-size: 30px;
+    color:grey;
+}
