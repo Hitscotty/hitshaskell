@@ -8,3 +8,5 @@ title: Archive
 [Tinkering With unfold]({{site.url}}{% post_url 2016-08-23-late-night %})
 
 [My first Haskell Cabal Project]({{site.url}}{% post_url 2016-08-25-cabalHell %})
+
+[Haskell is Love]({{site.url}}{% post_url 2016-09-02-haskell-is-love %})

@@ -1,0 +1,6 @@
+---
+layout: post
+title: Haskell is Love
+---
+
+I really want to maintain this blog because I love Haskell and I get this weird warm fuzzy feeling when I write about it; when I let someone else know what it means to me. I haven't had much time to blog because I've been caught up with exploring Monads, Applicatives, Functors and other algebraic structures. When I learn a new concept in Haskell it isn't much about learning a new aspect of the language that I can use, but more about discovery. I enjoy following the giant chain of facts that follow from trying to pick up a simple concept. I'll probably ask myself, _"what exactly does that mean?"_, and go through wiki's, research papers, blogs and uncover a whole new world of science, mathematics, and concepts that make me appreciate what I have yet to learn. Anyway, I'm finally nearing the end of chapter 17 and might write a blog about all the cool things I've learned since. I've even picked up a new book, [Concrete Mathematics](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025), one of the authors is _Knuth_ so I trust it shall be a very enlightening read. Apart from having this insane passion for learning applied science, I also want to be the best at my craft and I believe having a stronger mathematical background will help.
