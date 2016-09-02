@@ -20,7 +20,7 @@ author:
 # Custom vars
 version:          Scotty
 github:
-  repo:           https://github.com/hitscotty
+  repo:           https://github.com/Hitscotty/HaskellBookSolutions
 
 # Gems
 gems: [jekyll-paginate, jekyll-gist, redcarpet, pygments.rb]
