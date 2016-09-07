@@ -10,3 +10,5 @@ title: Archive
 [My first Haskell Cabal Project]({{site.url}}{% post_url 2016-08-25-cabalHell %})
 
 [Haskell is Love]({{site.url}}{% post_url 2016-09-02-haskell-is-love %})
+
+[I've Been Overthinking]({{site.url}}{% post_url 2016-09-07-i've-been-overthinking %})
