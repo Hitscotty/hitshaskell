@@ -11,13 +11,13 @@ a concrete answer where the answer can't be concrete because the concept to be
 understood deals with the abstraction of computation. If that didn't make any sense
 to you just imagine it as the type constructor of my feelings
 
->`data Scotty a = Thinking | OverThinking a`.
+`data Scotty a = Thinking | OverThinking a`.
 
 I was asking *why?* too stubbornly and all I could
 find was the same answers where everyone just kept reiterating what things were,
 
 ``` Haskell
-meinKampf = ["A Monoid is..", "A Functor is..", "A Monad is.." ..]
+ meinKampf = ["A Monoid is..", "A Functor is..", "A Monad is.." ..]
 ```
 So I realized that the answer to my *"why?"* is: because it's readable. The monoid
 typeclass is named monoid because categorically it is a monoid and etc. After letting
