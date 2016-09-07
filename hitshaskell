@@ -1,0 +1,20 @@
+  /Users/Scotty/Documents/Repositories/hitshaskell:
+  total used in directory 80 available 12243250
+  drwxr-xr-x  18 Scotty  admin   612 Sep  7 02:11 .
+  drwxr-xr-x  12 Scotty  admin   408 Sep  7 01:04 ..
+  drwxr-xr-x  15 Scotty  admin   510 Sep  7 02:10 .git
+  -rw-r--r--   1 Scotty  admin   434 Aug 22 01:26 .gitignore
+  -rw-r--r--@  1 Scotty  admin   331 Sep  2 14:00 404.html
+  -rw-r--r--   1 Scotty  admin   432 Sep  7 01:56 Archive.md
+  -rw-r--r--@  1 Scotty  admin    41 Aug 22 03:46 CNAME
+  -rw-r--r--   1 Scotty  admin  1298 Aug 23 03:00 Chapters.md
+  -rw-r--r--   1 Scotty  admin  1288 Aug 23 03:02 Hi Its Scotty!.md
+  -rw-r--r--@  1 Scotty  admin  1083 Aug 22 01:26 LICENSE.md
+  -rw-r--r--@  1 Scotty  admin   671 Sep  2 14:02 _config.yml
+  drwxr-xr-x   4 Scotty  admin   136 Aug 25 11:46 _includes
+  drwxr-xr-x   6 Scotty  admin   204 Aug 25 04:45 _layouts
+  drwxr-xr-x   7 Scotty  admin   238 Sep  7 02:00 _posts
+  drwxr-xr-x  12 Scotty  admin   408 Sep  7 01:21 _site
+  -rw-r--r--@  1 Scotty  admin   723 Aug 25 03:08 atom.xml
+  -rw-r--r--@  1 Scotty  admin   952 Aug 22 04:48 index.html
+  drwxr-xr-x   5 Scotty  admin   170 Aug 22 01:26 public
