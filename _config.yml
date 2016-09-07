@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rogue
 
 # Permalinks
 permalink:        pretty
@@ -23,7 +23,7 @@ github:
   repo:           https://github.com/Hitscotty/HaskellBookSolutions
 
 # Gems
-gems: [jekyll-paginate, jekyll-gist, redcarpet, pygments.rb]
+gems: [jekyll-paginate, jekyll-gist]
 
 paginate: 5
 paginate_path: "page:num"
