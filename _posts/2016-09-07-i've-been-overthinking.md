@@ -35,6 +35,7 @@ well and this is largely do to the types and the type system. When it came to th
 the internet has made them seem very *scary* and the explanations are so far from the types, I
 thought there was some higher level *thing* I needed to know that the types would not tell me. In the end
 the types tell you everything.
+
 > "When in doubt always look at the types." - The Haskell Gods
 
 When I returned to looking only at the
