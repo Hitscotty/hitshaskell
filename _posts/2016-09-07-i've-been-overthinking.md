@@ -3,6 +3,7 @@ layout: post
 title: My problem is...
 ---
 
+<img src="http://frescocapital.com/wp-content/uploads/2015/07/why.jpg"> </img>
 So after reading many papers, wiki's, blogs and multiple re-readings of <b>Haskell
 Programming</b>, I finally realized why I wasn't understanding Monoids/Functors
 /Monads.
