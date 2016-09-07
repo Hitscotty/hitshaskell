@@ -4,10 +4,10 @@ title: My problem is...
 ---
 
 So after reading many papers, wiki's, blogs and multiple re-readings of <b>Haskell
-Programming</b>, I finally realized why I wasn't understanding Monoids/Functo
-rs/Monads.
-I was over thinking an abstract idea and in the process of over thinking, seekin
-g a concrete answer where the answer can't be concrete because the concept to be
+Programming</b>, I finally realized why I wasn't understanding Monoids/Functors
+/Monads.
+I was over thinking an abstract idea and in the process of over thinking, seeking
+a concrete answer where the answer can't be concrete because the concept to be
 understood deals with the abstraction of computation. If that didn't make any sense
 to you just imagine it as the type constructor of my feelings
 
@@ -31,7 +31,10 @@ kind people from the community were giving me. I've always understood everything
 well and this is largely do to the types and the type system. When it came to these more advanced topics
 the internet has made them seem very *scary* and the explanations are so far from the types, I
 thought there was some higher level *thing* I needed to know that the types would not tell me. In the end
-the types tell you everything. ~When in doubt always look at the types~. When I returned to looking only at the
+the types tell you everything.
+> "When in doubt always look at the types." - The Haskell Gods
+
+When I returned to looking only at the
 types I realized that we have laws because when dealing with polymorphic types the programmer truly has
 all the power to define completely different computations or combinations using just the type signatures. The
 laws help make sure that in the process of writing these instances it'll behave as it should so that regardless
