@@ -3,7 +3,8 @@ layout: post
 title: My problem is...
 ---
 
-<img src="http://frescocapital.com/wp-content/uploads/2015/07/why.jpg"> </img>
+<img src="http://frescocapital.com/wp-content/uploads/2015/07/why.jpg">
+
 So after reading many papers, wiki's, blogs and multiple re-readings of <b>Haskell
 Programming</b>, I finally realized why I wasn't understanding Monoids/Functors
 /Monads.
@@ -17,7 +18,9 @@ to you just imagine it as the type constructor of my feelings
 I was asking *why?* too stubbornly and all I could
 find was the same answers where everyone just kept reiterating what things were,
 
-`meinKampf = ["A Monoid is..", "A Functor is..", "A Monad is.." ..]`
+``` Haskell
+meinKampf = ["A Monoid is..", "A Functor is..", "A Monad is.."]
+```
 
 So I realized that the answer to my *"why?"* is: because it's readable. The monoid
 typeclass is named monoid because categorically it is a monoid and etc. After letting
