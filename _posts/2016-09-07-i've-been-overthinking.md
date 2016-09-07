@@ -16,10 +16,8 @@ to you just imagine it as the type constructor of my feelings
 I was asking *why?* too stubbornly and all I could
 find was the same answers where everyone just kept reiterating what things were,
 
-``` Haskell
-meinKampf :: [Struggles]
-meinKampf = ["A Monoid is..", "A Functor is..", "A Monad is.." ..]
-```
+`meinKampf = ["A Monoid is..", "A Functor is..", "A Monad is.." ..]`
+
 So I realized that the answer to my *"why?"* is: because it's readable. The monoid
 typeclass is named monoid because categorically it is a monoid and etc. After letting
 go of this I began to see things more simply and the answers to my other questions
