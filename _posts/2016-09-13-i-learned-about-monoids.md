@@ -8,12 +8,13 @@ title: I learned Monoids
 # First translating some vocabulary
 
 > **Algebra** - "Study of mathematical symbols and rules governing their manipulation"<br>
-> **Haskell Algebra** - Functions and how they are composed/combined<br><br>
-> **Algebraic Structure** - "A set with a finite number of operations constrained by axioms"<br>
-> **Haskell Algebraic Structure** - A type with functions that follow some laws for arithmetic<br><br>
-> **"algebra"** - " A vector space equipped with a bilinear product"<br>
-> **Haskell "algebra"** - Objects of the same type with two operations summation and multiplication.<br>
+> **Haskell Algebra** - Functions and how they are composed/combined<br>
 > <br>
+> **Algebraic Structure** - "A set with a finite number of operations constrained by axioms"<br>
+> **Haskell Algebraic Structure** - A type with functions that follow some laws for arithmetic<br>
+> <br>
+> **"algebra"** - " A vector space equipped with a bilinear product"<br>
+> **Haskell "algebra"** - Objects of the same type with two operations summation and multiplication.<br><br>
 > **Arithmetic** - "dealing with properties and manipulation of numbers"<br>
 > **Haskell Arithmetic** - using what we know in the realm of arithmetic and applying it to types
 
@@ -23,7 +24,7 @@ An Algebra is the overall study of Algebraic Structures. In Haskell this can be 
 
 # So what is a Monoid ?
 
-A Monoid is a function that takes two inputs where the inputs must be associative and have an identity value. Associativity meaning that the order in which we group our inputs will have no effect on the result. Normally I see a lot of examples using three values such as: `(a x b) x c = a x (b x c)`. But, I'm slow and I need even that trivial example explained. Here's how I've broken it down to myself. Given the computation `a x b x c`, the Monoid is `x` because it can only take two inputs.The only possible ways for the Monoid `x` to execute `a x b x c`, since it only takes two inputs is: `(a x b) x c` or `a x (b x c)`. Now this difference in how execution is grouped, first `(a x b)` or first `(b x c)` must have no effect on the end result when the full expression is evaluated. To have no effect on the end result or more commonly known `(a x b) x c = a x (b x c)` is associativity. So to recap given that we have a function `(x)` that takes two inputs :
+A Monoid is a function that takes two inputs where the inputs must be associative and have an identity value. Associativity meaning that the order in which we group our inputs will have no effect on the result. Normally I see a lot of examples using three values such as: `(a x b) x c = a x (b x c)`. But, I'm slow and I need even that trivial example explained. Here's how I've broken it down to myself. Given the computation `a x b x c`, the binary operation is `x` because it can only take two inputs.The only possible ways for `x` to execute `a x b x c`, since it only takes two inputs is: `(a x b) x c` or `a x (b x c)`. Now this difference in how execution is grouped, first `(a x b)` or first `(b x c)` must have no effect on the end result when the full expression is evaluated. To have no effect on the end result or more commonly known `(a x b) x c = a x (b x c)` is associativity. So to recap given that we have a function `(x)` that takes two inputs :
 
 prefix:
 
@@ -37,7 +38,7 @@ infix:
 _ x _
 ```
 
-, the inputs must be associative. Now additionally there needs to be an identity value. If you're like me you question everything and so the reason why there must be an identity is because it gives us an entirely unique set of operations that can be applied to a type. A Monoid is just an algebra and since we have defined it to have these rules, we can generalize these rules across types using the mathematical symbol we attach to it. The mathematical symbol in question is a function. So if we write an instance of Monoid for a type and define the Monoid to be `(+)`, the `(+)` is the Monoid, but similarly you can define it to be a custom function that does some computation called `plus :: a -> a -> a` or `plusMinusTen :: a -> a -> a` and if we implement our Monoid typeclass with these functions they will become a Monoid.
+, the inputs must be associative. Now additionally there needs to be an identity value. If you're like me you question everything and so the reason why there must be an identity is because it gives us an entirely unique set of operations that can be applied to a type. A Monoid is just an algebra and since we have defined it to have these rules, we can generalize these rules across types using the mathematical symbol we attach to it. The mathematical symbol in question is a function. So if we write an instance of Monoid for a type and define the operation to be `(+)`, the type that uses `(+)` is the Monoid, but similarly you can define it to be a custom function that does some computation called `plus :: a -> a -> a` or `plusMinusTen :: a -> a -> a` and if we implement our Monoid typeclass with these functions we ensure that what we have is indeed a Monoid.
 
 # How do we implement a Monoid?
 
