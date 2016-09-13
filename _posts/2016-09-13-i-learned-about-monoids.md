@@ -28,7 +28,7 @@ A Monoid is a function that takes two inputs where the inputs must be associativ
 prefix:
 
 ```
- (x) input1 input2
+(x) input1 input2
 ```
 
 infix:
@@ -45,7 +45,7 @@ Since Monoid structure is already written for us in the Monoid typeclass all we 
 
 This is the Monoid typeclass:
 
-```
+```haskell
 class Monoid m where
     mempty :: m
     mappend :: m -> m -> m
@@ -55,7 +55,7 @@ class Monoid m where
 
 To use the Monoid typeclass above on a type we have our type implement it by writing an instance of our type that implements the Monoid typeclass :
 
-```
+```haskell
 instance customType a => Monoid a where
     mempty =
     mappend =
