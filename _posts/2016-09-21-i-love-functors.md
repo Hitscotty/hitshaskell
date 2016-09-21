@@ -3,7 +3,7 @@ layout: post
 title: I love Functors
 ---
 
-Ok, I'll be honest I love all of it, but seriously Functors are really cool. So I like dissecting what I've learned about Haskell and functional programming so it takes me quite awhile before I decided to write about it. I finally started having a real strong intuitive understanding of these algebraic structures, specifically today with Functors. I think I'll start by defining the general Idea of what a functor is and then enjoy explaining some of my code. For non-haskellers it might not make sense, but that part of the blog post is more for me then for the audience.
+Ok, I'll be honest I love all of it, but seriously Functors are really cool. So I like dissecting what I've learned about Haskell and functional programming so it took me quite awhile before I decided to write about it. I finally started having a real strong intuitive understanding of these algebraic structures, specifically today with Functors. I think I'll start by defining the general Idea of what a functor is and then enjoy explaining some of my code. For non-haskellers it might not make sense, but that part of the blog post is more for me then for the audience.
 
 # So what is a Functor
 
