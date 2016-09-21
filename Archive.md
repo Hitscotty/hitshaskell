@@ -14,3 +14,5 @@ title: Archive
 [I've Been Overthinking]({{site.url}}{% post_url 2016-09-07-i've-been-overthinking %})
 
 [What are Monoids?]({{site.url}}{% post_url 2016-09-13-i-learned-about-monoids %})
+
+[I love Functors]({{site.url}}{% post_url 2016-09-21-i-love-functors%})
